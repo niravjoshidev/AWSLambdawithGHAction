@@ -1,0 +1,85 @@
+{
+  "D:\\AWS\\AWSLambdawithGHAction": {
+    "versionSfCore": null,
+    "versionFramework": "4.1.7",
+    "isWithinCompose": false,
+    "isCompose": false,
+    "composeOrgName": null,
+    "composeResolverProviders": {},
+    "composeServiceName": null,
+    "servicePath": "D:\\AWS\\AWSLambdawithGHAction",
+    "serviceConfigFileName": "serverless.yml",
+    "service": {
+      "service": "AWSLambdawithGHAction",
+      "provider": {
+        "name": "aws",
+        "runtime": "nodejs",
+        "stage": "dev",
+        "region": "eu-north-1",
+        "versionFunctions": true
+      },
+      "functions": {
+        "hello": {
+          "handler": "handler:hello"
+        }
+      }
+    },
+    "serviceRawFile": "service: AWSLambdawithGHAction\r\nprovider:\r\n  name: aws\r\n  runtime: nodejs\r\n  stage: dev\r\n  region: eu-north-1\r\n\r\nfunctions:\r\n  hello:\r\n    handler: handler:hello",
+    "command": [
+      "create"
+    ],
+    "options": {
+      "template": "aws-nodejs"
+    },
+    "error": {
+      "message": "The \"create\" command was deprecated in v4. To create a new project, run the \"serverless\" command instead.",
+      "code": "UNRECOGNIZED_CLI_COMMAND"
+    },
+    "params": {},
+    "machineId": "d4e300fc7a237421b7998097ccad55a2",
+    "accessKeyV2": "<REDACTED>",
+    "accessKeyV1": "<REDACTED>",
+    "orgId": "6eb1928d-a783-4029-ab39-a35ab74fb758",
+    "orgName": "selfdev",
+    "userId": "f5Dw2bmYvJkZXty35P",
+    "dashboard": {
+      "isEnabledForService": false,
+      "requiredAuthentication": false,
+      "orgFeaturesInUse": null,
+      "orgObservabilityIntegrations": null,
+      "serviceAppId": null,
+      "serviceProvider": null,
+      "instanceParameters": null
+    },
+    "userName": "selfdev",
+    "subscription": null,
+    "userEmail": "joshinirav8847@outlook.com",
+    "serviceProviderAwsCredentials": "<REDACTED>",
+    "serviceProviderAwsAccountId": "323177056443",
+    "versionSf": "4.1.7",
+    "serviceProviderAwsCfStackName": "AWSLambdawithGHAction-dev",
+    "serviceProviderAwsCfStackId": null,
+    "serviceProviderAwsCfStackCreated": null,
+    "serviceProviderAwsCfStackUpdated": null,
+    "serviceProviderAwsCfStackStatus": null,
+    "serviceProviderAwsCfStackOutputs": null
+  },
+  "unknown": {
+    "versionSfCore": null,
+    "versionFramework": "4.1.7",
+    "isWithinCompose": false,
+    "composeOrgName": null,
+    "composeServiceName": null,
+    "command": [],
+    "options": {
+      "debug": "*"
+    },
+    "error": null,
+    "machineId": "d4e300fc7a237421b7998097ccad55a2",
+    "serviceProviderAwsCfStackId": null,
+    "serviceProviderAwsCfStackCreated": null,
+    "serviceProviderAwsCfStackUpdated": null,
+    "serviceProviderAwsCfStackStatus": null,
+    "serviceProviderAwsCfStackOutputs": null
+  }
+}
